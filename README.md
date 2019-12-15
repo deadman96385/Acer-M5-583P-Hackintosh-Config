@@ -6,10 +6,10 @@ This is tested on the Acer Aspire M5-583P-9688 but should work on any M5-583P va
 * CPU - I7-4500U - 4th Gen
 * Ram - 8gb - 2 slots
 * GPU - Intel HD4400
-* Drives - 2 AHCI/Sata SSD's
-* Audio - Realtek UNKNOWN
+* Drive - 1 240gb Sandisk AHCI/Sata SSD
+* Audio - Realtek ALC282
 * Ethernet - Realtek RTL8111 Series
-* wifi/bt - Coming Soon
+* wifi/bt - Azurewave AW-CE123H (Broadcom BCM4352)
 
 ## Software
 Used the [Vanilla guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) and the [Internet Recovery install method](https://internet-install.gitbook.io/macos-internet-install/)
@@ -30,7 +30,5 @@ This is based on [RehabMan's HD4400 Base config](https://github.com/RehabMan/OS-
 * WhateverGreen - Plugin for Lilu that fixes various GPU releated things in the system for AMD, Intel, Nvidia
 
 ## TODO
-1. Install Broadcom BCM4352 Azurewave AW-CE123H WIFI/BT card when it arrives.
-2. Map the USB Ports in the proper way instead of injecting them all.
-3. Get the Battery and Charging being detected (Requires DSDT patching) It isn't the end of the world because the charging hardware will still work properly and the charging indicator led works as well.
-4. Figure out what Realtek audio codec is being used so i can replace VoodooHDA with the proper AppleALC Kext.
+1. Map the USB Ports in the proper way instead of injecting them all.
+2. Get the Battery and Charging being detected (Requires DSDT patching) It isn't the end of the world because the charging hardware will still work properly and the charging indicator led works as well.
